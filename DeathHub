@@ -1,0 +1,97 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "DeathReaper", HidePremium = false, SaveConfig = true, ConfigFolder = "DeathHub"})
+
+
+OrionLib:MakeNotification({
+	Name = "DeathHub",
+	Content = "Welcome To My Shit",
+	Image = "rbxassetid://12688370892",
+	Time = 5
+})
+
+
+-- Tabs
+
+local HUBTab = Window:MakeTab({
+	Name = "Hubs",
+	Icon = "rbxassetid://12688370892",
+	PremiumOnly = false
+})
+
+local ScriptTab = Window:MakeTab({
+	Name = "Scripts",
+	Icon = "rbxassetid://12688370892",
+	PremiumOnly = false
+})
+
+
+local GamesTab = Window:MakeTab({
+	Name = "Games",
+	Icon = "rbxassetid://12688370892",
+	PremiumOnly = false
+})
+
+
+  
+-- Scripts
+
+ScriptTab:AddButton({
+	Name = "SilentAim",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DeathReaperForLife/DeathReaperGuiV1/main/Source"))()
+  	end    
+})
+
+HUBTab:AddButton({
+	Name = "FE Equinox Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DeathReaperForLife/DeathReaperGuiV1/main/Source1"))()
+  	end    
+})
+
+
+
+
+-- Game Scripts
+
+GamesTab:AddButton({
+	Name = "Anime Fighting Simulator#1",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/M4tr1x01/luascripts/main/solohub.lua"))()
+  	end    
+})
+
+
+GamesTab:AddButton({
+	Name = "BrookHaven #1",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/fnimPd4C"))()
+  	end    
+})
+
+
+GamesTab:AddButton({
+	Name = "BrookHaven #2",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DeathReaperForLife/HMMMMMM/main/Script"))()
+  	end    
+})
+
+
+GamesTab:AddButton({
+	Name = "BrookHaven #3",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DeathReaperForLife/HMMMMMM/main/script2"))()
+  	end    
+})
+
+
+GamesTab:AddButton({
+	Name = "Pls Donate#1",
+	Callback = function()
+        loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/tzechco"))()"))()
+  	end    
+})
+
+Tab:AddLabel("New Updates Comin Soon")
+Tab:AddLabel("This Is By DeathReaper Btw")
